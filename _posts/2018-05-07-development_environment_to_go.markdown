@@ -48,7 +48,7 @@ Next, copy the client directory into a new server directory:
 
 You'll have to change the default password in order to run a login shell remotely. You can do this by opening a terminal and executing `passwrd`. This will ask for your current password (default is "raspberry") and to enter a new password. Make sure you make a note of this, as you'll need to enter it to access remotely. 
 
-I couldn't find a way for lxterminal to automatically load a login shell when opened, so you'll just have to run the command `bash -l` when opening a new terminal.** Be sure to run this command before setting up RVM and your Ruby Gems!**
+I couldn't find a way for lxterminal to automatically load a login shell when opened, so you'll just have to run the command `bash -l` when opening a new terminal. **Be sure to run this command before setting up RVM and your Ruby Gems!**
 
 ### Code Editor
 
