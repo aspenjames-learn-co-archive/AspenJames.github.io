@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Development Environment To Go!"
-date:       2018-05-07 21:32:59 +0000
+date:       2018-05-07 17:33:00 -0400
 permalink:  development_environment_to_go
 ---
 
@@ -26,7 +26,7 @@ Once you have your operating system installed, setting up remote access is as ea
 
 ## Step 3: Local Environment Setup
 
-The next step is actually setting up your development environment. The default instructions on setting up a [Learn Development Environment ](https://github.com/AspenJames/linux-env-setup) are fairly accurate with a couple tweaks for the Pi. 
+The next step is actually setting up your development environment. The default instructions on setting up a [Learn Development Environment ](https://github.com/AspenJames/linux-env-setup) are fairly accurate with a couple tweaks for the Pi. I recommend giving the steps below a full read before setting things up, as the order you perform a few of these definitely matters!
 
 Follow those directions with these changes:
 
@@ -43,6 +43,12 @@ Next, copy the client directory into a new server directory:
  - In your terminal, navigate to /usr/lib/jvm/java-8-openjdk-armhf/jre/lib/arm
  - Execute this command: `sudo cp -r client server`
  - Reboot your system
+
+### Bash Login Shell
+
+You'll have to change the default password in order to run a login shell remotely. You can do this by opening a terminal and executing `passwrd`. This will ask for your current password (default is "raspberry") and to enter a new password. Make sure you make a note of this, as you'll need to enter it to access remotely. 
+
+I couldn't find a way for lxterminal to automatically load a login shell when opened, so you'll just have to run the command `bash -l` when opening a new terminal.** Be sure to run this command before setting up RVM and your Ruby Gems!**
 
 ### Code Editor
 
