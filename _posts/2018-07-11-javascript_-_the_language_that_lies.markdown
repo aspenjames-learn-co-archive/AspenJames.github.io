@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript - The Language That Lies"
-date:       2018-07-11 19:47:52 +0000
+date:       2018-07-11 15:47:52 -0400
 permalink:  javascript_-_the_language_that_lies
 ---
 
@@ -86,7 +86,7 @@ Now this code: `1+2+3+'4'+5 // => "645"`
 
 Uh.... That's quite strange. What's happening here is that JavaScript engine is going along nicely, adding our numbers together, until it reaches the `'4'`. It sees now that we're trying to add `6` to `'4'` and does the _nice_ thing of converting one of these to the same type in order to add them together. The JavaScript engine chooses to convert `6` to `"6"` and add the two strings together, resulting in `"64"`. It then _very kindly_ converts `5` to `"5"` and returns us the string `"645"`, which is very likely not what we were intending. 
 
-### What else is weird??
+## What else is weird??
 
 So much. The way JavaScript types work is so fast and loose, it'll make your head explode! Consider the examples below:
 
