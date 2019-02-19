@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Writing Tests With RSpec "
-date:       2018-06-21 05:57:44 +0000
+date:       2018-06-21 01:57:45 -0400
 permalink:  writing_tests_with_rspec
 ---
 
  
-In the Flat Iron program, much of our work on labs has been guided by specs, which are tests written with RSpec. I've been reading RSpec code for a few months now, and I'm really familiar with reading the code and using the output to guide my programming. However, I haven't *written* much RSpec code at all, and the idea of writing a bunch of specs seemed overwhelming. One of the best ways to learn almost anything in programming is to **just do it**, and RSpec is, by no surprise, not dissimilar in this way.  
+In the Flatiron School program, much of our work on labs has been guided by specs, which are tests written with RSpec. I've been reading RSpec code for a few months now, and I'm really familiar with reading the code and using the output to guide my programming. However, I haven't *written* much RSpec code at all, and the idea of writing a bunch of specs seemed overwhelming. One of the best ways to learn almost anything in programming is to **just do it**, and RSpec is, by no surprise, not dissimilar in this way.  
  
 ### So what the heck is RSpec?? 
  
