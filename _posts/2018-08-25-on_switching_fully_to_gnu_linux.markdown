@@ -6,7 +6,7 @@ permalink:  on_switching_fully_to_gnu_linux
 ---
 
  
-I recently removed Windows completely from my life - the software kind, not the glass-in-the-wall type. This was a very intentional and purposeful choice for me, and I'd like to share a bit about why I made that choice. It's not a decision I made overnight, and am I trying to steer everyone away from the technologies they may be using - I'm simply sharing my experience in hopes that someone may find it useful.  
+I recently removed Windows completely from my life - the software kind, not the glass-in-the-wall type. This was a very intentional and purposeful choice for me, and I'd like to share a bit about why I made that choice. It's not a decision I made overnight, nor am I trying to steer everyone away from the technologies they may be using - I'm simply sharing my experience in hopes that someone may find it useful.  
  
 ## The Start 
  
@@ -18,7 +18,7 @@ Fairly soon, I understood that running a system on a [hypervisor](https://www.ne
  
 ## Free and Open-Source Software 
  
-Free and open-source software, often abbreviated FOSS, is the idea of creating software and tools in the open. The code base is available to read, edit, and redistribute by the user, contingent on the specific license used. You can read more about FOSS [here](https://en.wikipedia.org/wiki/Free_and_open-source_software), but the takeaway for me is that FOSS is just a better way to live. That is my personal opinion, and I know several people who prefer proprietary software, and that's okay! Just because I prefer one way of doing things doesn't mean it's the only way. Being exposed to and participating in the FOSS community has helped me shape my values and ideals around what it means to create and produce software, and it fit in well with the personal values I hold. These values and ideals led me to shift away from using proprietary software.  
+Free and open-source software, often abbreviated FOSS, is the idea of creating software and tools in the open. The code base is available to read, edit, and redistribute by the user, contingent on the specific license used. You can read more about FOSS [here](https://en.wikipedia.org/wiki/Free_and_open-source_software), but the takeaway for me is that FOSS is just a better way to live. That is my personal opinion -- I know several people who prefer proprietary software, and that's okay! Just because I prefer one way of doing things doesn't mean it's the only way. Being exposed to and participating in the FOSS community has helped me shape my values and ideals around what it means to create and produce software, and it fit in well with the personal values I hold. These values and ideals led me to shift away from using proprietary software (when possible).
  
 ## But you paid for Windows 10 already 
  
